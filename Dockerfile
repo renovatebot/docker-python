@@ -7,4 +7,8 @@ RUN apt-get update && apt-get install -y python3.7-dev python3-distutils && apt-
 RUN rm -fr /usr/bin/python3 && ln /usr/bin/python3.7 /usr/bin/python3
 RUN ln /usr/bin/python3.7 /usr/bin/python
 
+# Install pip and pipenv
+RUN apt -y install python3-pip python3-dev
+RUN pip3 install pipenv
+
 USER ubuntu
