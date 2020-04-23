@@ -1,14 +1,6 @@
-FROM renovate/base@sha256:d694b03ba0df63ac9b27445e76657d4ed62898d721b997372aab150ee84e07a1
+FROM renovate/buildpack:1@sha256:10e98460170e2ed4ea5150f5baefe0589c60bd8c63bf1f06fac5b8a61b61040d
 
-USER root
-
-RUN apt-get update && apt-get install -y \
-    python3.7-dev \
-    python3-distutils \
-    python3.7-venv \
-    && rm -rf /var/lib/apt/lists/*
-
-RUN rm -fr /usr/bin/python3 && ln /usr/bin/python3.7 /usr/bin/python3
-RUN ln /usr/bin/python3.7 /usr/bin/python
+# renovate: datasource=docker
+RUN install-tool python 3.8.2
 
 USER ubuntu
