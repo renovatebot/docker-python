@@ -1,5 +1,5 @@
 {
   "image": "python",
-  "startVersion": "3.6.0",
+  "startVersion": "3.7.0",
   "cache": "docker-build-cache"
 }
