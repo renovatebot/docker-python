@@ -1,6 +1,4 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "pinDigests": true
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>renovatebot/presets-internal:docker-images"]
 }
