@@ -4,4 +4,4 @@ FROM renovate/buildpack:1@sha256:c6f6576e75d493c4a1ff50eb620cbd16ac38221f8c705ed
 ARG PYTHON_VERSION=3.7.7
 RUN install-tool python
 
-USER ubuntu
+USER 1000
