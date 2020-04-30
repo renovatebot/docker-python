@@ -3,7 +3,29 @@
   "datasource": "docker",
   "versioning": "docker",
   "latestVersion": "3.7.5",
-  "startVersion": "3.7.0",
+  "startVersion": "3.6.0",
   "cache": "docker-build-cache",
-  "ignoredVersions": ["3.7.0b1", "3.8.0b1"]
+  "ignoredVersions": [
+    "3.6.2rc1",
+    "3.6.2rc2",
+    "3.7.0a1",
+    "3.7.0a2",
+    "3.7.0a3",
+    "3.7.0a4",
+    "3.7.0b1",
+    "3.7.0b2",
+    "3.7.0b3",
+    "3.7.0b4",
+    "3.7.0b5",
+    "3.8.0a1",
+    "3.8.0a2",
+    "3.8.0a3",
+    "3.8.0a4",
+    "3.8.0b1",
+    "3.8.0b2",
+    "3.8.0b3",
+    "3.8.0b4",
+    "3.8.0rc1"
+  ],
+  "forceUnstable": false
 }

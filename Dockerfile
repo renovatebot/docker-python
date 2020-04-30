@@ -1,4 +1,4 @@
-FROM renovate/buildpack:1@sha256:0fa21d11578682fb27ab2abdf885854ae4ce4fe05a411622c371adccef0cd755
+FROM renovate/buildpack:2-python@sha256:5b31579c838783a1d678f6fc012bbfdcc8a24589f49b826d68bffe6600c5d272
 
 # Updating this version will cause a image id change
 ARG PYTHON_VERSION=3.7.5
