@@ -6,6 +6,8 @@
   "startVersion": "3.6.0",
   "cache": "docker-build-cache",
   "ignoredVersions": [
+    "3.6.2rc1",
+    "3.6.2rc2",
     "3.7.0a1",
     "3.7.0a2",
     "3.7.0a3",
