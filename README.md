@@ -4,5 +4,4 @@
 
 # docker-python
 
-
 This repository is the source for the Docker Hub image `renovate/python`. Commits to `master` branch are automatically built and published.
