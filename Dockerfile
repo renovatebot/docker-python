@@ -1,7 +1,7 @@
 # renovate: datasource=docker depName=python versioning=docker
 ARG PYTHON_VERSION=3.8.3
 
-FROM renovate/buildpack:2-python@sha256:3b1c3df8ce60ef81a2f615ee03a7b6b36bbf9f8537a74de77b091ef651542ea3
+FROM renovate/buildpack:2-python@sha256:75759e0ed0e3ab438d1cd5f90d46f907f48a629d770d0ca1bae99e5d0a7831ca
 
 ARG PYTHON_VERSION
 RUN install-tool python
