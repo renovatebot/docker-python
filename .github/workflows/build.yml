@@ -7,11 +7,7 @@ on:
       - 'renovate/**'
 
   pull_request:
-
-env:
-  # https://github.com/chalk/supports-color/issues/106
-  FORCE_COLOR: true
-
+    
 jobs:
   build:
     runs-on: ubuntu-latest
