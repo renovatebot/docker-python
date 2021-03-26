@@ -1,7 +1,7 @@
 # renovate: datasource=github-tags depName=renovatebot/python
 ARG PYTHON_VERSION=3.9.2
 
-FROM renovate/buildpack:4-python@sha256:dc6e8b8fc227fe9196d9d46913ce6682c3816b7930b134cfda898a554e04479e
+FROM renovate/buildpack:4-python@sha256:c687ad05f595bd87d683233b46204f3a94b4142103351ec4d38955149b651f05
 
 ARG PYTHON_VERSION
 RUN install-tool python
