@@ -1,7 +1,7 @@
 # renovate: datasource=github-releases depName=containerbase/python-prebuild
 ARG PYTHON_VERSION=3.9.6
 
-FROM renovate/buildpack:5-python@sha256:4c4810ca996f01d4327e90b882af7b4fe934e0199652335c8f5df69088205f34
+FROM renovate/buildpack:5-python@sha256:dcb4bdb1ad697d630c32f1d2060d9e739d53223ca9fcc18768c4c320d0af1356
 
 ARG PYTHON_VERSION
 RUN install-tool python
